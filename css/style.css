@@ -123,10 +123,10 @@ header.scrolled {
 }
 
 .site-logo--footer {
-  height: 70px !important;
-  max-height: 70px !important;
-  max-width: 200px !important;
-  mix-blend-mode: screen;
+  height: 160px !important;
+  max-height: 160px !important;
+  max-width: 300px !important;
+  mix-blend-mode: multiply;
   margin-bottom: 14px;
 }
 .nav-links { display: flex; align-items: center; gap: 4px; }
