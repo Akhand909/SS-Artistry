@@ -96,19 +96,18 @@ header.scrolled {
 .nav-inner {
   max-width: 1260px; margin: 0 auto;
   display: flex; align-items: center; justify-content: space-between;
-  padding: 0 24px; height: 76px;
+  padding: 0 24px; height: 110px;
 }
 .logo-wrap {
   display: flex;
   align-items: center;
-  height: 76px;
-  overflow: hidden;
+  height: 110px;
 }
 .site-logo {
-  height: 50px !important;
-  max-height: 50px !important;
+  height: 100px !important;
+  max-height: 100px !important;
   width: auto !important;
-  max-width: 160px !important;
+  max-width: 220px !important;
   object-fit: contain;
   display: block;
   transition: var(--transition);
