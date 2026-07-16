@@ -111,7 +111,6 @@ header.scrolled {
   object-fit: contain;
   display: block;
   transition: var(--transition);
-  mix-blend-mode: multiply;
   flex-shrink: 0;
 }
 .site-logo:hover { transform: scale(1.05); }
@@ -126,7 +125,6 @@ header.scrolled {
   height: 160px !important;
   max-height: 160px !important;
   max-width: 300px !important;
-  mix-blend-mode: multiply;
   margin-bottom: 14px;
 }
 .nav-links { display: flex; align-items: center; gap: 4px; }
