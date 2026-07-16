@@ -172,7 +172,7 @@ function handleEnquiry(e) {
   const msg = encodeURIComponent(
     `Hi! I'd like to enquire about SS Artistry's services.\n\nName: ${name}\nPhone: ${phone}\nEvent Date: ${date || 'TBD'}\nService: ${service || 'Not specified'}\n\nPlease get in touch!`
   );
-  window.open(`https://api.whatsapp.com/send?phone=919876543210&text=${msg}`, '_blank');
+  window.open(`https://api.whatsapp.com/send?phone=919958050893&text=${msg}`, '_blank');
   showToast('Opening WhatsApp... We\'ll get back to you soon! 🌸', 'success');
   e.target.reset();
   return false;
@@ -203,7 +203,7 @@ function handleBooking(e) {
     `Details: ${message || 'None'}\n\n` +
     `Please confirm my booking!`
   );
-  window.open(`https://api.whatsapp.com/send?phone=919876543210&text=${msg}`, '_blank');
+  window.open(`https://api.whatsapp.com/send?phone=919958050893&text=${msg}`, '_blank');
   showToast('🌸 Booking request sent via WhatsApp! We\'ll confirm shortly.', 'success');
   e.target.reset();
   return false;
